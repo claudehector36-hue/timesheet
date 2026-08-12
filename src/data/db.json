@@ -1,0 +1,120 @@
+{
+  "users": [
+    {
+      "id": "usr-admin",
+      "firstName": "Admin",
+      "lastName": "STK",
+      "email": "admin@stk.fr",
+      "role": "ADMIN",
+      "department": "Direction",
+      "dailyRate": 800,
+      "weeklyCapacity": 35,
+      "status": "ACTIVE",
+      "passwordHash": "$2b$10$cV6CDN/aH2bDY7BSXbJUre/MRajnLsW1lmB6h7lsRyZTCITzvT/zi"
+    },
+    {
+      "id": "usr-1786531412894",
+      "firstName": "claude",
+      "lastName": "bobiongono",
+      "email": "claudehector36@gmail.com",
+      "role": "USER",
+      "department": "INFOS",
+      "dailyRate": 550,
+      "weeklyCapacity": 35,
+      "status": "ACTIVE",
+      "passwordHash": "$2b$10$DEjyX7QB08zMTQ5ZcXLtbOyxrHfwaXxJQFf9Q30wk162sp03cKzDe"
+    }
+  ],
+  "clients": [
+    {
+      "id": "cli-1786531469988",
+      "code": "SPARK",
+      "name": "SPARK",
+      "contactName": "claude hector",
+      "contactEmail": "claudehector36@gmail.com",
+      "contactPhone": "000000",
+      "status": "ACTIVE",
+      "createdAt": "2026-08-12"
+    },
+    {
+      "id": "cli-1786531508514",
+      "code": "SPARK DI",
+      "name": "SPARK DIGIT",
+      "contactName": "claude hector",
+      "contactEmail": "claudehector36@gmail.com",
+      "contactPhone": "000000",
+      "status": "ACTIVE",
+      "createdAt": "2026-08-12"
+    }
+  ],
+  "missions": [
+    {
+      "id": "mis-1786531692977",
+      "code": "Z",
+      "name": "Conception de publication",
+      "clientId": "cli-1786531469988",
+      "clientName": "SPARK",
+      "type": "INTERNE",
+      "startDate": "2026-08-12",
+      "endDate": "2026-12-31",
+      "budgetHours": 150,
+      "budgetAmount": 12000,
+      "hourlyRate": 80,
+      "status": "IN_PROGRESS",
+      "assignedUserIds": [
+        "usr-1786531412894"
+      ]
+    }
+  ],
+  "timeEntries": [
+    {
+      "id": "te-1786535412968",
+      "userId": "usr-1786531412894",
+      "userName": "claude bobiongono",
+      "clientId": "",
+      "clientName": "SPARK",
+      "missionId": "",
+      "missionName": "Gestion des timesheet",
+      "activity": "Conception",
+      "date": "2026-08-12",
+      "hours": 0,
+      "description": "Conception d'une application saas de gestion des taches des entreprise",
+      "status": "APPROVED",
+      "createdAt": "2026-08-12T11:50:12.968Z",
+      "updatedAt": "2026-08-12T11:52:38.220Z"
+    },
+    {
+      "id": "te-1786535504288",
+      "userId": "usr-1786531412894",
+      "userName": "claude bobiongono",
+      "clientId": "",
+      "clientName": "STRATEGIKONSEIL",
+      "missionId": "",
+      "missionName": "PUBLICATION",
+      "activity": "Redaction d'une publication",
+      "date": "2026-08-12",
+      "hours": 0,
+      "description": "Comment détecter une fuite d'argent dans une PME ?",
+      "status": "APPROVED",
+      "createdAt": "2026-08-12T11:51:44.288Z",
+      "updatedAt": "2026-08-12T11:52:27.840Z"
+    },
+    {
+      "id": "te-1786535638310",
+      "userId": "usr-1786531412894",
+      "userName": "claude bobiongono",
+      "clientId": "",
+      "clientName": "STK-CGA",
+      "missionId": "",
+      "missionName": "PUBLICATION",
+      "activity": "Redaction d'une publication",
+      "date": "2026-08-12",
+      "hours": 0,
+      "description": "Une facture n'est pas seulement un document commercial",
+      "status": "APPROVED",
+      "createdAt": "2026-08-12T11:53:58.310Z",
+      "updatedAt": "2026-08-12T11:54:13.866Z"
+    }
+  ],
+  "timesheetPeriods": []
+}
