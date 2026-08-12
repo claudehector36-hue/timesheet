@@ -1,6 +1,0 @@
-{
-  "name": "Application Timesheet",
-  "description": "Logiciel SaaS de gestion des temps, collaborateurs, clients, missions et suivi budgétaire.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
