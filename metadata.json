@@ -1,0 +1,6 @@
+{
+  "name": "STK-TIMESHEET - Application de Gestion des Temps & Tâches",
+  "description": "Application SaaS professionnelle de gestion des temps, suivi des missions, budgets, validation et export Excel d'après prototype.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
